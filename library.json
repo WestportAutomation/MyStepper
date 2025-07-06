@@ -23,7 +23,8 @@
             "src/MyStepper.h"
         ],
         "exclude": [
-            "test"
+            "test",
+            "examples"
         ]
     },
     "frameworks": "Arduino",
