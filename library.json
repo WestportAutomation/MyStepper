@@ -1,0 +1,32 @@
+{
+    "name": "MyStepper",
+    "version": "1.0.0",
+    "description": "A library for controlling stepper motors with homing functionality.",
+    "keywords": ["stepper", "motor", "homing"],
+    "authors": [
+        {
+        "name": "Larry",
+        "email": "Westport Automation",
+        "maintainer": true
+        }
+    ],
+
+
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "github.com/westportautomation/MyStepper.git"
+    },
+    "build": {      
+        "include": [
+            "src/MyStepper.cpp",
+            "src/MyStepper.h"
+        ],
+        "exclude": [
+            "examples",
+            "test"
+        ]
+    },
+    "frameworks": "*",
+    "platforms": "*"
+}
