@@ -27,6 +27,6 @@
             "test"
         ]
     },
-    "frameworks": "*",
+    "frameworks": "Arduino",
     "platforms": "*"
 }
