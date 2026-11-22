@@ -28,7 +28,7 @@ private:
 public:
 
 	MyStepper();
-	void init(int, int, int, int);
+	void init(int En, int Dir, int Stp, int H);
 	void Home();
 	void Step(long,bool);
 	void setDir(bool);
